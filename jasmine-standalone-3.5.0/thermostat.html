@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href="styles/styles.css">
+    <script src="https://kit.fontawesome.com/93496120bb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="src/thermostat.js"></script>
+  </head>
+
+  <body>
+    <div id="parent">
+      <div class="square" id="child">
+        <h1 id="title">Thermostat</h1>
+
+        <div class="indicator"></div>
+
+        <h1 id="temp" class="center"></h1>
+        <div class="center">
+            <button id="up" class="btn"><i class="fas fa-arrow-up"></i></button>
+            <button id="down" class="btn"><i class="fas fa-arrow-down"></i></button>
+            <button id="reset" class="btn"><i class="fas fa-undo"></i></button>
+            <button id="powerSaving" class="btn"><i class="fas fa-battery-quarter"></i></button> 
+        </div>
+      </div>
+      <div class="square" id="child">
+        <h1 id="title" class="temp">Outside Temperature</h1>
+        <h1 id="london" class="temp"></h1>
+        <h1 id="current" class="temp"></h1>
+      </div>
+    </div>
+  </body>
+</html>
